@@ -1,0 +1,17 @@
+{
+  "name": "microservice_workshop",
+  "private": true,
+  "scripts": {
+    "start": "docker-compose up",
+    "prestart": "npm install",
+    "monitor": "npm install && node 01_monitor.js",
+    "needs": "node 02_needs.js",
+    "location_solution": "node 03_location_solution.js",
+    "brand_solution": "node 04_brand_solution.js",
+    "solution_picker": "node 05_solution_picker.js"
+  },
+  "dependencies": {
+    "lodash": "1.3.1",
+    "amqp": "0.2.4"
+  }
+}

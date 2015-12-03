@@ -12,3 +12,9 @@ Docker was used to run RabbitMQ and the various services (Uganda class)
 ** docker run -d -p 5672:5672 -p 15672:15672 --name="rabbitmq" dockerfile/rabbitmq
 ** for restarting: docker start rabbitmq
 ** for console dumping: docker logs rabbitmq
+
+
+
+Microservices using NodeJS
+
+Developed by: [Sameer Shemna](https://github.com/sameersemna "GitHub Profile") and [Omar Ahmad](https://github.com/omaryoussef "GitHub Profile")
